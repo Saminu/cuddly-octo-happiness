@@ -96,7 +96,7 @@ const ChatWindow = ({
   return (
     <div
       className={
-        "border-translucent flex w-full flex-col rounded-2xl border-2 border-white/20 bg-zinc-900 text-white shadow-2xl drop-shadow-lg " +
+        "shborder-translucent flex w-full flex-col rounded-2xl border-2 border-white/20 bg-stone-600 text-white adow-2xl drop-shadow-lg " +
         (className ?? "")
       }
     >
@@ -202,7 +202,7 @@ const ExampleAgentButton = ({
     <div
       className={clsx(
         `w-full p-2 sm:w-[33%]`,
-        `cursor-pointer rounded-lg bg-sky-600 font-mono text-sm hover:bg-sky-700 sm:text-base`,
+        `cursor-pointer rounded-lg bg-[#364959] font-mono text-sm hover:bg-sky-700 sm:text-base`,
         `border-[2px] border-white/20 hover:border-[#1E88E5]/40`
       )}
       onClick={handleClick}
@@ -321,7 +321,7 @@ const MacWindowHeader = (props: HeaderProps) => {
               icon={<FaSave size={12} />}
               name={`${t("SAVE", { ns: "common" })}`}
               styleClass={{
-                container: `relative bg-[#3a3a3a] md:w-20 text-center font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
+                container: `relative bg-[#364958] md:w-20 text-center font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
               }}
             />
           </PopIn>
@@ -353,7 +353,7 @@ const MacWindowHeader = (props: HeaderProps) => {
         items={exportOptions}
         styleClass={{
           container: "relative",
-          input: `bg-[#3a3a3a] animation-duration text-left py-1 px-2 text-sm font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
+          input: `bg-[#364958] animation-duration text-left py-1 px-2 text-sm font-mono rounded-lg text-gray/50 border-[2px] border-white/30 font-bold transition-all sm:py-0.5 hover:border-[#1E88E5]/40 hover:bg-[#6b6b6b] focus-visible:outline-none focus:border-[#1E88E5]`,
           option: "w-full py-[1px] md:py-0.5",
         }}
       />

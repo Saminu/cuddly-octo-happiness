@@ -94,7 +94,7 @@ const Drawer = ({
         id="drawer"
         className={clsx(
           showDrawer ? "translate-x-0 md:sticky" : "-translate-x-full",
-          "z-30 m-0 flex h-screen w-72 flex-col justify-between bg-zinc-900 p-3 font-mono text-white shadow-3xl transition-all",
+          "z-30 m-0 flex h-screen w-72 flex-col justify-between bg-stone-600 p-3 font-mono text-white shadow-3xl transition-all",
           "fixed top-0 "
         )}
       >
@@ -106,7 +106,7 @@ const Drawer = ({
                 showDrawer
                   ? "-translate-x-2"
                   : "translate-x-12 border-2 border-white/20",
-                "absolute right-0 top-2 z-40 rounded-md bg-zinc-900 p-2 text-white transition-all hover:bg-zinc-700 "
+                "absolute right-0 top-2 z-40 rounded-md bg-stone-600 p-2 text-white transition-all hover:bg-zinc-700 "
               )}
               onClick={toggleDrawer}
             >
