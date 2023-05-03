@@ -4,20 +4,21 @@
 
 /* Used for the background effect in the landing page */
 .background {
-  background-image: radial-gradient(
-    circle,
-    rgba(58, 58, 58, 0.75) 2px,
+  /* background-image: radial-gradient(
+    circle,rgba(240, 128, 128) 2px,
     transparent 0px
-  );
+  ); */
   background-size: 30px 30px;
   background-position: 0 0, 15px 15px;
+  /* background-color: #FFDAB9; */
+  background: rgb(10, 8, 30);
 }
 
 .lower-gradient {
   background-image: linear-gradient(
     to top,
-    rgba(255, 255, 255, 0.03),
-    rgba(255, 255, 255, 0)
+    rgba(255, 218, 185),
+    rgba(255, 218, 185)
   );
   height: 20vh;
   position: fixed;
